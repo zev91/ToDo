@@ -16,6 +16,7 @@
     "styled-components": "^2.1.1",
     "styled-props": "^1.0.0"
   },
+  "homepage": "https://zev91.github.io/ToDo/build",
   "devDependencies": {
     "react-scripts": "1.0.10"
   },

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import injectTapEventPlugin from 'react-tap-event-plugin'  
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch ,} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import Drawer from '../components/Drawer';
 import Header from '../components/Header';
 import Main from './Main';
@@ -14,6 +15,7 @@ class App extends Component {
         <Header/>
         <Drawer/>
          <Switch>
+
       <Route
         path='/login'
         component={Login}

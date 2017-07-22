@@ -9,9 +9,6 @@ const TodoText = styled(({redText, lineThrough, ...rest}) => <TextField {...rest
   flex-grow: 1;
   color: #424242;
   &.completed textarea {
-    color: ${props => props.lineThrough === true
-      ? '#BDBDBD !important' : '#757575 !important'
-    };
     text-decoration: ${props => props.lineThrough === true
       ? 'line-through !important' : 'none'
     }

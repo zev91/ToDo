@@ -24,18 +24,18 @@ const LoginForm = styled.form`
   height: ${
         props =>{
          if(props.login){
-          return '340px'
+          return '350px'
          }
          if(props.out){
-         return '290px'
+         return '320px'
          }else{
-           return '400px'
+           return '424px'
          }
         }     
   };
   -webkit-transition:width 0.3s, height 0.3s, 
-        background-color 0.3s, -webkit-transform 0.3s;
-    transition:width 0.3s, height 0.4s, background-color 0.3s, transform 0.3s;
+  background-color 0.3s, -webkit-transform 0.3s;
+  transition:width 0.3s, height 0.4s, background-color 0.3s, transform 0.3s;
   padding: 0px 10px;
   margin: auto;
   background: white;
@@ -43,8 +43,10 @@ const LoginForm = styled.form`
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   z-index: 900;
+  &div > p{
+    font-size: 14px!important!;
+  }
   &::after {
-    
     display: inline-block;
     font-size: 12px;
     color: white;

@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import CheckCircle from 'material-ui/svg-icons/action/check-circle'
 import Button from '../styles/Button'
+import Page from '../styles/Page'
 
 const WelcomeDIV = styled.div`
   color: #03A9F4;
@@ -22,12 +23,12 @@ const WelcomeDIV = styled.div`
 const Welcome = ({isLogged, username, onLogoutClick}) => (
   <WelcomeDIV>
     <CheckCircle />
-    <p>
+    <Page>
       欢迎回来! {username}
       <br />
       <br />
       使用NoMess，立刻开始您的一天规划
-    </p>
+    </Page>
     <Button
     fullWidth={true}
       bigger

@@ -59,7 +59,7 @@ const Sidebar = ({isSidebarOpen, toggleSideBar, isLogged}) => {
            />
         </NavLink>
         <NormalLink
-          href='https://github.com/kylewh/NoMess'
+          href='https://github.com/zev91/ToDo'
           target='_blank'
         >
           <MenuItem
@@ -73,7 +73,7 @@ const Sidebar = ({isSidebarOpen, toggleSideBar, isLogged}) => {
           />
         </NormalLink>
         <NormalLink
-          href='https://kylewh.github.io/'
+          href='#'
           target='_blank'
         >
           <MenuItem

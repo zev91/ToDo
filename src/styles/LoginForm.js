@@ -27,7 +27,7 @@ const LoginForm = styled.form`
           return '350px'
          }
          if(props.out){
-         return '320px'
+         return '280px'
          }else{
            return '424px'
          }

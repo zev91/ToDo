@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import CheckCircle from 'material-ui/svg-icons/action/check-circle'
 import Button from '../styles/Button'
 import Page from '../styles/Page'
-
+import FlatButton from 'material-ui/FlatButton';
+import Avatar from 'material-ui/Avatar';
 const WelcomeDIV = styled.div`
   color: #03A9F4;
   box-sizing: border-box;
@@ -22,12 +23,20 @@ const WelcomeDIV = styled.div`
 
 const Welcome = ({isLogged, username, onLogoutClick}) => (
   <WelcomeDIV>
-    <CheckCircle />
+    {/* <CheckCircle /> */}
+  
+              <Avatar
+                  color={'#fff'}
+                  backgroundColor={'#43c1ef'}
+                  size={40}
+                   >{isLogged.attributes.username[0].toUpperCase()}
+            </Avatar>
+  
     <Page>
-      欢迎回来! {username}
+      {username}
       <br />
       <br />
-      使用NoMess，立刻开始您的一天规划
+      欢迎使用TodoList!
     </Page>
     <Button
     fullWidth={true}

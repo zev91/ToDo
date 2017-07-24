@@ -22,7 +22,7 @@ const Sidebar = ({isSidebarOpen, toggleSideBar, isLogged}) => {
         containerStyle={{
           height: 'calc( 100% - 60px )',
           top: 60,
-          zIndex: 800,
+          zIndex: 920,
           boxShadow: '2px 2px 4px rgba(0,0,0,0.15)',
           textAlign: 'center'
         }}
